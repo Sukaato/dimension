@@ -1,1 +1,1 @@
-execute in minecraft:overworld as @a[tag=end_visited] at @s if entity @s[y=320,dy=0.1] run execute in minecraft:the_end run tp @s ~ 0 ~
+execute in minecraft:overworld as @a[tag=end_visited] at @s if entity @s[y=320,dy=5] run execute in minecraft:the_end run tp @s ~ 0 ~
