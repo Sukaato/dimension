@@ -1,0 +1,3 @@
+function dimension_travel:src/player_has_visited_end
+function dimension_travel:src/travel/world_to_end
+function dimension_travel:src/travel/end_to_world
