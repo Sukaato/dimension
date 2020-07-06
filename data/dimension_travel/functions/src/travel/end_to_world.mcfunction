@@ -1,0 +1,1 @@
+execute in minecraft:the_end as @a[tag=end_visited] at @s if entity @s[y=-30,dy=0.1] run execute in minecraft:overworld run tp @s ~ 300 ~
