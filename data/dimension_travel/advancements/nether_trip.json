@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:nether/root",
+    "display": {
+        "title": {
+            "text": "Beyond the limits"
+        },
+        "description": {
+            "text": "Explore the roof of the Nether"
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travel:explore_nether_roof": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether",
+                "position": {
+                    "y": {
+                        "min": 128,
+                        "max": 255
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [ "travel:explore_nether_roof" ]
+    ]
+}
