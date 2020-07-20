@@ -1,3 +1,2 @@
 # Dimension travel
-
-datapack ver. 1.0.0
+Datapack for minecraft 1.16 to travel between overworld and the End
