@@ -1,0 +1,1 @@
+execute if data storage config {dimension: 1b} run function dimension:src/core/main
